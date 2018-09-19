@@ -12,6 +12,11 @@ driver.get("file:///D:/PythonCode/testData/index.html")
 
 data_tbody = driver.find_element_by_tag_name("tbody")
 # 4.利用 td的tabindex属性值来获取相应的文本信息
+
+
+
+
+
 a = 2
 for i in range(40):
     # 如果i超出了40，就跳出循环，因为最多只有40个9（即40个帐号）

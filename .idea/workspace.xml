@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1bfe8e6-c8f8-4b4b-bef5-4fa81e3aec03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fortest/UItest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fortest/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clawlerdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/clawlerdata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainui.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savedata.py" beforeDir="false" afterPath="$PROJECT_DIR$/savedata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateqmsdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/updateqmsdata.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +15,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/visualization$updateqmsdata.coverage" NAME="updateqmsdata Coverage Results" MODIFIED="1537189228150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visualization$updateqmsdata.coverage" NAME="updateqmsdata Coverage Results" MODIFIED="1537364670672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/visualization$savedata.coverage" NAME="savedata Coverage Results" MODIFIED="1537067459066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/visualization$clawlerdata.coverage" NAME="clawlerdata Coverage Results" MODIFIED="1537187687561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/visualization$mainui.coverage" NAME="mainui Coverage Results" MODIFIED="1537272983844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visualization$mainui.coverage" NAME="mainui Coverage Results" MODIFIED="1537367322899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/visualization$dataClawler.coverage" NAME="dataClawler Coverage Results" MODIFIED="1537023153680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/visualization$UItest.coverage" NAME="UItest Coverage Results" MODIFIED="1537273100559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fortest" />
     <SUITE FILE_PATH="coverage/visualization$test.coverage" NAME="test Coverage Results" MODIFIED="1537067760862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -56,30 +57,31 @@
     <session id="324952287">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="19" />
           <entry key="pyd" value="1" />
           <entry key="pyi" value="1" />
           <entry key="sql" value="3" />
-          <entry key="table_data_qms" value="4" />
-          <entry key="table_data_qms_halfhour" value="6" />
+          <entry key="table_data_qms" value="5" />
+          <entry key="table_data_qms_halfhour" value="10" />
           <entry key="table_test" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="3233" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Python" value="4547" />
           <entry key="SQL" value="27" />
           <entry key="Scratch" value="32" />
         </counts>
@@ -87,9 +89,9 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="13" />
+          <entry key="Database Element" value="18" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="14" />
+          <entry key="Python" value="19" />
           <entry key="PythonStub" value="1" />
           <entry key="Scratch" value="3" />
         </counts>
@@ -98,8 +100,9 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="3260" />
+          <entry key="py" value="4574" />
           <entry key="sql" value="32" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -110,64 +113,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clawlerdata.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://642364d0-8fd8-40ae-ba49-586fcef28e79/schema/main/table/table_data_qms_halfhour">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://642364d0-8fd8-40ae-ba49-586fcef28e79/schema/main/table/table_data_qms">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="1" lean-forward="true" selection-end-line="143" />
+            <state relative-caret-position="188">
+              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+                <marker date="1537367322851" expanded="true" signature="346:2400" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fortest/UItest.py">
+        <entry file="file://$PROJECT_DIR$/updateqmsdata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="130" column="19" lean-forward="true" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/savedata.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="152">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -195,12 +157,12 @@
         <option value="$PROJECT_DIR$/dataClawler.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8471041c-e9a1-4a83-9b5f-f900e41a8633/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/dcbe4b96-da4c-496d-9108-ead7775f751c/console.sql" />
-        <option value="$PROJECT_DIR$/clawlerdata.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/fortest/UItest.py" />
+        <option value="$PROJECT_DIR$/clawlerdata.py" />
         <option value="$PROJECT_DIR$/savedata.py" />
         <option value="$PROJECT_DIR$/updateqmsdata.py" />
         <option value="$PROJECT_DIR$/mainui.py" />
-        <option value="$PROJECT_DIR$/fortest/UItest.py" />
       </list>
     </option>
   </component>
@@ -211,9 +173,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="870" />
-    <option name="y" value="18" />
-    <option name="width" value="1019" />
+    <option name="x" value="715" />
+    <option name="y" value="5" />
+    <option name="width" value="1209" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -224,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,22 +193,18 @@
               <item name="visualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="visualization" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="visualization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visualization" type="462c0819:PsiDirectoryNode" />
-              <item name="fortest" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Python37/Scripts/pyrcc5.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
@@ -264,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.UItest">
+  <component name="RunManager" selected="Python.mainui">
     <configuration name="UItest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="visualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -384,9 +341,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.UItest" />
         <item itemvalue="Python.mainui" />
         <item itemvalue="Python.updateqmsdata" />
+        <item itemvalue="Python.UItest" />
         <item itemvalue="Python.clawlerdata" />
         <item itemvalue="Python.test" />
       </list>
@@ -403,6 +360,28 @@
       <option name="presentableId" value="Default" />
       <updated>1537016576887</updated>
     </task>
+    <task id="LOCAL-00001" summary="third+UI">
+      <created>1537273259117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537273259117</updated>
+    </task>
+    <task id="LOCAL-00002" summary="third+UI">
+      <created>1537273383870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537273383870</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4_newUI">
+      <created>1537367371719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537367371719</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -415,15 +394,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="870" y="18" width="1019" height="1047" extended-state="0" />
+    <frame x="715" y="5" width="1209" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.16579771" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.14360313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.18550107" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41557017" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49843588" visible="true" weight="0.17653508" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,15 +412,15 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50156415" side_tool="true" weight="0.41557017" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.18248175" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3274244" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3272411" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,6 +428,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="third+UI" />
+    <MESSAGE value="4_newUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="4_newUI" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8471041c-e9a1-4a83-9b5f-f900e41a8633/console.sql">
@@ -495,23 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/updateqmsdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="36" column="57" lean-forward="true" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clawlerdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://642364d0-8fd8-40ae-ba49-586fcef28e79/schema/main/table/table_data_qms">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -519,10 +486,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/clawlerdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/savedata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="95">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -533,23 +510,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainui.py">
+    <entry file="file://$PROJECT_DIR$/fortest/UItest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" lean-forward="true" selection-end-line="143" />
+        <state relative-caret-position="1558">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fortest/UItest.py">
+    <entry file="file://$PROJECT_DIR$/mainui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="130" column="19" lean-forward="true" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
+        <state relative-caret-position="188">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <marker date="1537367322851" expanded="true" signature="346:2400" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updateqmsdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>

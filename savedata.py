@@ -16,8 +16,7 @@ inall_reviewed int
 ) """
 
 query_second_table="""create table  if not exists table_data_qms_halfhour(
-id integer primary key autoincrement,
-name_qms VARCHAR(20)  ,
+name_qms VARCHAR(20) primary key  ,
 today_submitted int ,
 today_reviewed int 
 ) """
